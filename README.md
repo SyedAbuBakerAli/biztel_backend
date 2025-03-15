@@ -4,13 +4,13 @@
 - POST /crawl
 - GET /crawl/{id} 
 
-<h3>>Implemented</h3>
-- Use Jsoup fetch web page links.
-- Implement multithreading.
-- Implement DTOs.
-- Implement a global exception handler.
-- Swagger API documentation.
-- One unit test case.
+<h3>Implemented</h3>
+- Use Jsoup fetch web page links
+- Implement multithreading
+- Implement DTOs
+- Implement a global exception handler
+- Swagger API documentation
+- One unit test case
 
 <h3>Prerequisites</h3>
 
@@ -24,7 +24,7 @@
 
 <h3>Springboot version</h3>
 
-- 3.4.2
+- 3.4.3
 
 <h3>Java version</h3>
 - 17
@@ -38,6 +38,7 @@ spring.datasource.driverClassName=org.h2.Driver
 spring.datasource.username=root
 spring.datasource.password=password
 spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+```
 
 
 <h3>Build and Run the Project</h3>
@@ -47,5 +48,7 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 - Server running on Port 8082.
 - If you want to change port then Change it in application.properties.
 
-![Screenshot 2025-03-15 153904](https://github.com/user-attachments/assets/0cefb555-2db8-4643-a8ba-a307aa633fb3)
+<h3>Swagger Screenshot:</h3>
+
+![Screenshot 2025-03-15 153904](https://github.com/user-attachments/assets/0d9818f8-34cb-4795-a388-c34c7b77dc1e)
 
