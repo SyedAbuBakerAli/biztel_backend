@@ -1,10 +1,12 @@
 # Project Setup and Running Locally
 
-<h3API Endpoints</h3>
+<h3>API Endpoints</h3>
+
 - POST /crawl
 - GET /crawl/{id} 
 
 <h3>Implemented</h3>
+
 - Use Jsoup fetch web page links
 - Implement multithreading
 - Implement DTOs
